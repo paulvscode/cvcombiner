@@ -1,0 +1,216 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  background: transparent !important;
+}
+
+.bg-specific {
+  background-color: white !important;
+  border-bottom: 1px solid rgb(252, 232, 52) !important;
+}
+
+.bg-title {
+  color: black !important;
+  text-decoration: underline !important;
+  background-color: rgb(248, 248, 248);
+}
+
+.bg-title-white {
+  color: black !important;
+  text-decoration: underline !important;
+  background-color: white;
+}
+
+.grey-bg {
+  background-color: rgb(248, 248, 248) !important;
+}
+
+.overcolor {
+  font-weight: bold !important;
+}
+
+.img-linked-in-logo {
+  width: 30px !important;
+}
+
+.projets-images {
+  width: 300px !important;
+  height: 200px;
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.container-flex-projects {
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center;
+  padding: 1.3rem !important;
+  flex-direction: column;
+}
+
+#stack-anchor {
+  height: 56px;
+  display: none;
+}
+
+.no-padding-specific {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.list-group-item {
+  width: 150px !important;
+  font-weight: 600;
+  border: none;
+  font-size: 1.3rem !important;
+}
+
+.title-li-frontend {
+  background-color: rgb(252, 232, 52) !important;
+  color: black !important;
+}
+.title-li-backend {
+  background-color: rgb(252, 232, 52) !important;
+  color: black !important;
+}
+
+.container-listgroups {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: flex-start !important;
+}
+
+.list-group {
+  list-style-type: none !important;
+  text-align: center;
+}
+
+.border-bot-yellow {
+  border-bottom: 1px solid rgb(252, 232, 52);
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.custom-btn {
+  background-color: rgb(252, 232, 52);
+  font-size: 1.2rem;
+}
+
+.stick-to-top {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.margin-fixed-div {
+  margin-top: 65px;
+}
+
+/* anchor */
+
+.anchor {
+  scroll-margin-top: 46px;
+}
+
+.no-gutter {
+  --bs-gutter-x: 0rem !important;
+}
+
+/* hover */
+
+.navbar-brand:hover {
+  background-color: rgb(252, 232, 52) !important;
+}
+
+@media (min-width: 360px) and (max-width: 375px) {
+  .mobile-styling-top-div {
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    z-index: 999;
+  }
+  .margin-fixed-div {
+    margin-top: 110px;
+  }
+  .anchor {
+    scroll-margin-top: 110px;
+  }
+  .navbar-brand {
+    font-size: 1.2rem !important;
+  }
+  .laptop-font-size {
+    font-size: 1rem !important;
+  }
+  .container-listgroups {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: flex-start !important;
+    font-size: 1rem;
+  }
+}
+
+@media (orientation: landscape) {
+  .mobile-styling-top-div {
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    z-index: 999;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 414px) {
+  .mobile-styling-top-div {
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    z-index: 999;
+  }
+  .margin-fixed-div {
+    margin-top: 115px;
+  }
+  .anchor {
+    scroll-margin-top: 115px;
+  }
+  .navbar-brand {
+    font-size: 1.2rem !important;
+  }
+  .laptop-font-size {
+    font-size: 1rem !important;
+  }
+  .container-listgroups {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: flex-start !important;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-styling-top-div {
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    z-index: 999;
+  }
+  .margin-fixed-div {
+    margin-top: 80px;
+  }
+  .anchor {
+    scroll-margin-top: 80px;
+  }
+  .navbar-brand {
+    font-size: 1.2rem !important;
+  }
+  .laptop-font-size {
+    font-size: 1rem !important;
+  }
+  .container-listgroups {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: flex-start !important;
+    font-size: 1rem;
+  }
+}
