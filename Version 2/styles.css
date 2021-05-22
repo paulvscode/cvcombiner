@@ -86,7 +86,7 @@ a {
 }
 
 .nav-link {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   color: #475569;
 }
@@ -110,6 +110,10 @@ section {
   padding: 1.5rem;
 }
 
+.line-height-regular-spacing {
+  line-height: 2;
+}
+
 .spacing-div {
   margin-bottom: 1rem;
 }
@@ -120,6 +124,67 @@ section {
 
 .font-color-basic {
   background-color: #f1b814;
+}
+
+/* Compétences */
+
+.skill-category {
+  align-self: flex-start;
+  width: 75%;
+}
+
+.list-skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  padding: 0 1rem;
+  line-height: 1.5;
+  border-bottom: 1px dotted black;
+}
+
+.list-skills {
+  width: 25%;
+}
+
+/* form */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-button-reset {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+}
+
+.submit-button {
+  width: 50%;
+  margin: 1rem auto;
+  background-color: #bd1e51;
+  cursor: pointer;
+  color: white;
+}
+
+footer {
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -158,5 +223,29 @@ section {
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .list-skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    padding: 0 1rem;
+    line-height: 2;
+    border-bottom: 1px dotted black;
+    margin: 0 auto;
+  }
+  .fixed-top {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100vh;
+    margin: 0 auto;
   }
 }
